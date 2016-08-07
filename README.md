@@ -6,7 +6,7 @@ This repository houses Arduino code and digital fabrication files from my 2016 h
 insert GIF or video here
 
 ## Materials ##
-Approximate BOM (not including original cap): 
+Approximate BOM (not including original cap and tassel): 
 
 #### Crafts ####
 * light blue foam
@@ -41,7 +41,7 @@ Approximate BOM (not including original cap):
 
 
 ## Software ##
-I modified wayoda's [LedControl library](https://github.com/wayoda/LedControl) using a [patch written by giech](https://github.com/wayoda/LedControl/pull/13) for being able to render a greater variety of ASCII characters, as well as myself adding a setByte() function myself so I could render upside-down characters. 
+I modified wayoda's [LedControl library](https://github.com/wayoda/LedControl) using a [patch written by giech](https://github.com/wayoda/LedControl/pull/13) for being able to render a greater variety of ASCII characters, as well as myself adding a `setByte()` function myself so I could render upside-down characters. 
 
 As of July 2016, both of these modifications are waiting to be merged upstream. 
 If you would like to see these features upstreamed into the LedControl library, please consider voting and/or commenting at the respective pull request pages! 
